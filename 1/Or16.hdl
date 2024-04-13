@@ -13,4 +13,7 @@ CHIP Or16 {
 
     PARTS:
     //// Replace this comment with your code.
+    Nand16(a = a, b = a, out = outA);
+    Nand16(a = b, b = b, out = outB);
+    Nand16(a = outA, b = outB, out = out);
 }
