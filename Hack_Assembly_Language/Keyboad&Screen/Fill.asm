@@ -9,3 +9,13 @@
 // the screen should be cleared.
 
 //// Replace this comment with your code.
+@SCREEN
+M = -1
+
+@SCREEN
+D = M + 1
+
+M = D
+M = -1
+
+
